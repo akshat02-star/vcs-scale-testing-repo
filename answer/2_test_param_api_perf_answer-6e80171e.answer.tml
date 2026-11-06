@@ -1,0 +1,40 @@
+obj_id: 2_test_param_api_perf_answer-6e80171e
+answer:
+  name: 2_test_param_api_perf_answer
+  tables:
+  - id: 1_test_param_api_perf_worksheet
+    name: 1_test_param_api_perf_worksheet
+    obj_id: 1_test_param_api_perf_worksheet-21778aea
+  formulas:
+  - id: formula_answer_formula_2
+    name: answer_formula_2
+    expr: "concat ( [Country Name] , [Postalcode Name] )"
+    was_auto_generated: false
+  search_query: "[formula_answer_formula_2] [State Name]"
+  answer_columns:
+  - name: State Name
+  - name: answer_formula_2
+  table:
+    table_columns:
+    - column_id: State Name
+      headline_aggregation: COUNT_DISTINCT
+    - column_id: answer_formula_2
+      headline_aggregation: COUNT_DISTINCT
+    ordered_column_ids:
+    - answer_formula_2
+    - State Name
+    client_state: ""
+    client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"answer_formula_2\",\"columnProperty\": {}}]}"
+  chart:
+    type: SCATTER
+    chart_columns:
+    - column_id: State Name
+    - column_id: answer_formula_2
+    axis_configs:
+    - x:
+      - State Name
+      "y":
+      - answer_formula_2
+    client_state: ""
+    client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {}},\"columnProperties\": [{\"columnId\": \"answer_formula_2\",\"columnProperty\": {}},{\"columnId\": \"State Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"a7ec8ee5-fb66-4478-b2b8-49897895def7\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"answer_formula_2\"],\"isOpposite\": false}},{\"id\": \"bdbe3239-e50f-4c41-987d-ef9b00b2ce66\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"State Name\"]}}]}"
+  display_mode: TABLE_MODE
