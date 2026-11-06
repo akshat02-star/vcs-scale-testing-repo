@@ -1,0 +1,53 @@
+obj_id: 1_test_param_api_perf_worksheet-5ac9dccf
+model:
+  name: 1_test_param_api_perf_worksheet
+  model_tables:
+  - name: SUPPLIER
+    obj_id: SUPPLIER-b6500df5
+  formulas:
+  - id: formula_test_wk_formula
+    name: test_wk_formula
+    expr: concat ( [SUPPLIER::COMPANY_KEY] , [SUPPLIER::POSTALCODE_NAME] )
+  columns:
+  - name: Company Key
+    column_id: SUPPLIER::COMPANY_KEY
+    properties:
+      column_type: ATTRIBUTE
+  - name: Postalcode Name
+    column_id: SUPPLIER::POSTALCODE_NAME
+    properties:
+      column_type: ATTRIBUTE
+  - name: test_wk_formula
+    formula_id: formula_test_wk_formula
+    properties:
+      column_type: ATTRIBUTE
+  - name: Company Name
+    column_id: SUPPLIER::COMPANY_NAME
+    properties:
+      column_type: ATTRIBUTE
+  - name: Country Name
+    column_id: SUPPLIER::COUNTRY_NAME
+    properties:
+      column_type: ATTRIBUTE
+  - name: State Name
+    column_id: SUPPLIER::STATE_NAME
+    properties:
+      column_type: ATTRIBUTE
+  - name: City Name
+    column_id: SUPPLIER::CITY_NAME
+    properties:
+      column_type: ATTRIBUTE
+  properties:
+    is_bypass_rls: false
+    join_progressive: true
+    spotter_config:
+      is_spotter_enabled: false
+  parameters:
+  - id: e722158f-37e5-49a7-a9ef-0ab74e3b5a02
+    name: param_perf_1
+    data_type: CHAR
+    default_value: _param_perf_test
+  - id: c4a8e162-4e1d-4d2c-b53c-3251aa4261b3
+    name: param_perf_2
+    data_type: CHAR
+    default_value: _param_perf_test_2
