@@ -1,0 +1,204 @@
+obj_id: 1_test_param_api_perf_pinboard-fa382ded
+liveboard:
+  name: 1_test_param_api_perf_pinboard
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: 1_test_param_api_perf_answer
+      tables:
+      - id: 1_test_param_api_perf_worksheet
+        name: 1_test_param_api_perf_worksheet
+        obj_id: 1_test_param_api_perf_worksheet-21778aea
+      formulas:
+      - id: formula_answer_formula
+        name: answer_formula
+        expr: "concat ( [City Name] , [param_perf_1] )"
+        was_auto_generated: false
+      search_query: "[formula_answer_formula] [Company Key] [Company Name]"
+      answer_columns:
+      - name: Company Key
+      - name: Company Name
+      - name: answer_formula
+      table:
+        table_columns:
+        - column_id: Company Key
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Company Name
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: answer_formula
+          headline_aggregation: COUNT_DISTINCT
+        ordered_column_ids:
+        - answer_formula
+        - Company Key
+        - Company Name
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"answer_formula\",\"columnProperty\": {}}]}"
+      chart:
+        type: SCATTER
+        chart_columns:
+        - column_id: Company Key
+        - column_id: Company Name
+        - column_id: answer_formula
+        axis_configs:
+        - x:
+          - Company Key
+          "y":
+          - answer_formula
+          category:
+          - Company Name
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {}},\"columnProperties\": [{\"columnId\": \"answer_formula\",\"columnProperty\": {}},{\"columnId\": \"Company Key\",\"columnProperty\": {}},{\"columnId\": \"Company Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"e72b4a76-2c92-4ba2-be9a-e5e3620db96b\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"answer_formula\"],\"isOpposite\": false}},{\"id\": \"abe9dd4c-64d3-494a-a602-d6db831b8be6\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Company Key\"]}}]}"
+      display_mode: TABLE_MODE
+    viz_guid: 745b262b-7c00-4cd7-bc20-027e448aa707
+  - id: Viz_2
+    answer:
+      name: 1_test_param_api_perf_answer
+      tables:
+      - id: 1_test_param_api_perf_worksheet
+        name: 1_test_param_api_perf_worksheet
+        obj_id: 1_test_param_api_perf_worksheet-21778aea
+      formulas:
+      - id: formula_answer_formula
+        name: answer_formula
+        expr: "concat ( [City Name] , [param_perf_1] )"
+        was_auto_generated: false
+      search_query: "[formula_answer_formula] [Company Key] [Company Name]"
+      answer_columns:
+      - name: Company Key
+      - name: Company Name
+      - name: answer_formula
+      table:
+        table_columns:
+        - column_id: Company Key
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Company Name
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: answer_formula
+          headline_aggregation: COUNT_DISTINCT
+        ordered_column_ids:
+        - answer_formula
+        - Company Key
+        - Company Name
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"answer_formula\",\"columnProperty\": {}}]}"
+      chart:
+        type: SCATTER
+        chart_columns:
+        - column_id: Company Key
+        - column_id: Company Name
+        - column_id: answer_formula
+        axis_configs:
+        - x:
+          - Company Key
+          "y":
+          - answer_formula
+          category:
+          - Company Name
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {}},\"columnProperties\": [{\"columnId\": \"answer_formula\",\"columnProperty\": {}},{\"columnId\": \"Company Key\",\"columnProperty\": {}},{\"columnId\": \"Company Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"e72b4a76-2c92-4ba2-be9a-e5e3620db96b\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"answer_formula\"],\"isOpposite\": false}},{\"id\": \"abe9dd4c-64d3-494a-a602-d6db831b8be6\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Company Key\"]}}],\"systemSeriesColors\": [{\"serieName\": \"answer_formula\",\"color\": \"#FF8142\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: d33ff250-b5a1-4baa-a698-f72cb4f69b22
+  - id: Viz_3
+    answer:
+      name: 2_test_param_api_perf_answer
+      tables:
+      - id: 1_test_param_api_perf_worksheet
+        name: 1_test_param_api_perf_worksheet
+        obj_id: 1_test_param_api_perf_worksheet-21778aea
+      formulas:
+      - id: formula_answer_formula_2
+        name: answer_formula_2
+        expr: "concat ( [Country Name] , [Postalcode Name] )"
+        was_auto_generated: false
+      search_query: "[formula_answer_formula_2] [State Name]"
+      answer_columns:
+      - name: State Name
+      - name: answer_formula_2
+      table:
+        table_columns:
+        - column_id: State Name
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: answer_formula_2
+          headline_aggregation: COUNT_DISTINCT
+        ordered_column_ids:
+        - answer_formula_2
+        - State Name
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"answer_formula_2\",\"columnProperty\": {}}]}"
+      chart:
+        type: SCATTER
+        chart_columns:
+        - column_id: State Name
+        - column_id: answer_formula_2
+        axis_configs:
+        - x:
+          - State Name
+          "y":
+          - answer_formula_2
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {}},\"columnProperties\": [{\"columnId\": \"answer_formula_2\",\"columnProperty\": {}},{\"columnId\": \"State Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"a7ec8ee5-fb66-4478-b2b8-49897895def7\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"answer_formula_2\"],\"isOpposite\": false}},{\"id\": \"bdbe3239-e50f-4c41-987d-ef9b00b2ce66\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"State Name\"]}}]}"
+      display_mode: TABLE_MODE
+    viz_guid: ccde2b1f-6774-4608-8846-2ae1a7ad5288
+  - id: Viz_4
+    answer:
+      name: 2_test_param_api_perf_answer
+      tables:
+      - id: 1_test_param_api_perf_worksheet
+        name: 1_test_param_api_perf_worksheet
+        obj_id: 1_test_param_api_perf_worksheet-21778aea
+      formulas:
+      - id: formula_answer_formula_2
+        name: answer_formula_2
+        expr: "concat ( [Country Name] , [Postalcode Name] )"
+        was_auto_generated: false
+      search_query: "[formula_answer_formula_2] [State Name]"
+      answer_columns:
+      - name: State Name
+      - name: answer_formula_2
+      table:
+        table_columns:
+        - column_id: State Name
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: answer_formula_2
+          headline_aggregation: COUNT_DISTINCT
+        ordered_column_ids:
+        - answer_formula_2
+        - State Name
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"answer_formula_2\",\"columnProperty\": {}}]}"
+      chart:
+        type: SCATTER
+        chart_columns:
+        - column_id: State Name
+        - column_id: answer_formula_2
+        axis_configs:
+        - x:
+          - State Name
+          "y":
+          - answer_formula_2
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {}},\"columnProperties\": [{\"columnId\": \"answer_formula_2\",\"columnProperty\": {}},{\"columnId\": \"State Name\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"a7ec8ee5-fb66-4478-b2b8-49897895def7\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"answer_formula_2\"],\"isOpposite\": false}},{\"id\": \"bdbe3239-e50f-4c41-987d-ef9b00b2ce66\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"State Name\"]}}],\"systemSeriesColors\": [{\"serieName\": \"answer_formula_2\",\"color\": \"#8C62F5\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: c88c3385-8006-4731-a347-cee2fb4ff5fe
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      x: 0
+      "y": 0
+      height: 8
+      width: 12
+    - visualization_id: Viz_2
+      x: 0
+      "y": 8
+      height: 8
+      width: 6
+    - visualization_id: Viz_3
+      x: 0
+      "y": 16
+      height: 8
+      width: 12
+    - visualization_id: Viz_4
+      x: 6
+      "y": 8
+      height: 8
+      width: 6
