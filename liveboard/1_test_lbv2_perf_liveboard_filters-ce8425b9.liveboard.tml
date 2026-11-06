@@ -1,0 +1,4139 @@
+obj_id: 1_test_lbv2_perf_liveboard_filters-ce8425b9
+liveboard:
+  name: 1_test_lbv2_perf_liveboard_filters
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: 1_test_lbv2_perf_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: SCATTER
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Total Lineamount
+          "y":
+          - Total Qtyordered
+          category:
+          - Invoiceaccount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"186ac397-9f09-4ed3-b0a0-d077c135532d\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c352f4a4-259c-4072-9fee-179e6488662e\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Total Lineamount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"}]}"
+      display_mode: TABLE_MODE
+    viz_guid: 483fb503-adaa-45fb-a0e6-0123c1e42f29
+  - id: Viz_2
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: SCATTER
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Total Lineamount
+          "y":
+          - Total Qtyordered
+          category:
+          - Invoiceaccount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"186ac397-9f09-4ed3-b0a0-d077c135532d\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c352f4a4-259c-4072-9fee-179e6488662e\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Total Lineamount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 717ae056-b01e-4612-a9b3-feaef9757eda
+  - id: Viz_3
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 97e9cf5e-7469-4f64-8823-9c9811d3f4dc
+  - id: Viz_4
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 9bf7826c-75e4-4720-b89a-b2df9489cb59
+  - id: Viz_5
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 71897c33-f3c7-4545-995d-cee381df7e5b
+  - id: Viz_6
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 3dbecd2c-de58-46e8-ad38-fef285eff2e7
+  - id: Viz_7
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 998aa7cc-f3b2-43ae-b9b6-67ae5e951546
+  - id: Viz_8
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 95ea8944-f0ea-4997-b19d-e4d304bb0ec2
+  - id: Viz_9
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 270ccfb1-4ff8-48ce-9e3e-e70c50ba685e
+  - id: Viz_10
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: d3426654-9fd0-4e99-a4ee-efdaafc76442
+  - id: Viz_11
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 1e1d6094-63f5-4632-84ff-ae5b95733d7d
+  - id: Viz_12
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 8f639afe-f863-4e02-a86a-5deb28caebed
+  - id: Viz_13
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: c31674e7-7e8c-4b82-8973-f159c89ad24b
+  - id: Viz_14
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 07710f20-83e1-4afb-ba9d-196277e667c1
+  - id: Viz_15
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 391b89af-2c1a-4e09-8bde-dcd0535c08f9
+  - id: Viz_16
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 3397dc2a-5193-4be0-8aa4-a8c26c0fad07
+  - id: Viz_17
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 98e65ef0-6b89-4527-bfb4-07b893768a07
+  - id: Viz_18
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: ede2fc73-d980-4363-866f-13c843c47eef
+  - id: Viz_19
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 74f4d788-f9b3-42dc-ace9-6bab70d84668
+  - id: Viz_20
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 8d54a608-e4cc-458a-b1f1-1804084fbe54
+  - id: Viz_21
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 351c9245-52e3-422b-bde1-53c6a810d26d
+  - id: Viz_22
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: e1988bb1-9dce-49e1-be58-761ddf654d1e
+  - id: Viz_23
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 566ac0a5-01bc-4caf-8c9f-9e7018b960bf
+  - id: Viz_24
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: d1d0d051-a186-4f99-8705-75fbd481a7fb
+  - id: Viz_25
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: fdca53fa-bc10-4f83-903e-129fa79a09c0
+  - id: Viz_26
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: e71d6892-f539-41ac-acd3-3f272d8b707a
+  - id: Viz_27
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 4e70dcae-7666-4fb8-a3f8-7ba51fc0a0ff
+  - id: Viz_28
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 39ea2ed1-5867-49a9-a9d0-4e765047e71e
+  - id: Viz_29
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 9f2a33e7-966e-42a5-84de-c60613037086
+  - id: Viz_30
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 9319733b-bf19-4432-a691-ed68127160f8
+  - id: Viz_31
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: a22c010f-5ead-4118-9d56-acad8b25b2f7
+  - id: Viz_32
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 3362c61e-6e7d-4362-9868-9fb1a13eab2d
+  - id: Viz_33
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: ad68bcba-0cf5-4f8b-8ec5-fcd909556fae
+  - id: Viz_34
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 9dd9fdaf-5bcd-42b2-b4cf-a7a77a3167bc
+  - id: Viz_35
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 719019e6-9b8b-48f5-ac75-3860567687d1
+  - id: Viz_36
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 35e5b497-58d5-4f4f-b012-fe1c37d414b9
+  - id: Viz_37
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: a17a5f67-e062-4442-9b79-c162c522a279
+  - id: Viz_38
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: f4a0b232-cd73-4240-8611-82530eee1249
+  - id: Viz_39
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 4d4451db-dd49-4c2e-bf7d-637989c54c8c
+  - id: Viz_40
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 343f0ba8-0b75-4113-8a8b-cee323d42ae2
+  - id: Viz_41
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: c27a656b-f276-4b7b-9743-38b94ecf6ce9
+  - id: Viz_42
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: c32ee189-4294-4dc7-8f8c-4b34547bba34
+  - id: Viz_43
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 4e5807dc-517c-44da-9ec4-1d516682a013
+  - id: Viz_44
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 347b7a9a-9f49-4261-abc6-1d7667587c74
+  - id: Viz_45
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: f6b73221-d046-448d-958f-4a59e74fae5e
+  - id: Viz_46
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 077df9a5-6187-40b3-9a79-bb5c74d1e1cb
+  - id: Viz_47
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 02e8d7d1-c6a7-4b9f-8297-a392caaad8b3
+  - id: Viz_48
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: beb3f766-a6de-47bb-8a3d-ce84aef5299e
+  - id: Viz_49
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 9e4fe5fc-ab7b-41bb-9fed-a3fdcdee2baa
+  - id: Viz_50
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 8ce34be8-b036-4dfe-8773-b317047f1b79
+  - id: Viz_51
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 4428ce9b-9588-48e8-9973-1390a0807da4
+  - id: Viz_52
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: a38de147-d231-4fee-ada6-a3282c342907
+  - id: Viz_53
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 62e5581c-b01a-4be6-8c30-e823913cb5e4
+  - id: Viz_54
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: f124de03-c393-4ae5-bf05-50a3cf309af4
+  - id: Viz_55
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 2999d7ab-b12d-48a4-982d-c8c2e3061486
+  - id: Viz_56
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 1ceb8216-e032-43aa-9752-93df370927d2
+  - id: Viz_57
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 5e4f9dc7-a1c1-4bb8-b6dc-9e4808669971
+  - id: Viz_58
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 6922da6f-f5c7-4bb7-94f4-1ac686f0ca8e
+  - id: Viz_59
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: aca3e7fb-22fa-428d-bb6c-2b1da47e4967
+  - id: Viz_60
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 08e9e2c7-33e1-431b-adb6-0c08fb999ef7
+  - id: Viz_61
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 2d74f973-92ef-4834-9b34-f8b3ebbb6abb
+  - id: Viz_62
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 144d6ec3-14c0-4066-bb78-338b4d0e66d0
+  - id: Viz_63
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 3ca73eaf-98ef-46f0-8efb-6228d66d34f2
+  - id: Viz_64
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: f5f00eb8-f8ff-4a38-8e9d-c218447cc23d
+  - id: Viz_65
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: d039db25-ed53-48c5-a708-f4ee32531617
+  - id: Viz_66
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: cfa33162-c651-4921-9891-1adb9dbfef31
+  - id: Viz_67
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: bffa1573-2c18-4451-8c07-a8c6282ea576
+  - id: Viz_68
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 4914572a-c349-4794-bd6d-149384497795
+  - id: Viz_69
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: d2befb47-d2e0-45d7-9b48-c7025687c5ca
+  - id: Viz_70
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: d556bd63-2c7a-4dd1-9d14-36279ec83b02
+  - id: Viz_71
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 4a63cfe6-de84-432c-81e5-59982650a122
+  - id: Viz_72
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 5cf36f07-03b0-4deb-a5ff-b116e73b3150
+  - id: Viz_73
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 02142fef-422d-4f44-9e5b-1cd4dac0db50
+  - id: Viz_74
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 1bf69a6a-6064-4bfe-a859-a4c0fead3b63
+  - id: Viz_75
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 375582f1-7f89-4d49-8fdc-a563bd12fd03
+  - id: Viz_76
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 2606804c-2106-40b1-ad4c-83ec27f2798c
+  - id: Viz_77
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: ac413eae-7a29-4906-a195-6c0eb1579559
+  - id: Viz_78
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: ee34834b-c595-4295-a2d7-4d1740b4763a
+  - id: Viz_79
+    answer:
+      name: 1_test_lbv2_answer
+      tables:
+      - id: 1_test_lbv2_worksheet
+        name: 1_test_lbv2_worksheet
+        obj_id: 1_test_lbv2_worksheet-d8394cfd
+      search_query: "[Invoiceaccount] [Orderaccount] [Lineamount] [Qtyordered]"
+      answer_columns:
+      - name: Invoiceaccount
+      - name: Orderaccount
+      - name: Total Lineamount
+      - name: Total Qtyordered
+      table:
+        table_columns:
+        - column_id: Invoiceaccount
+          show_headline: false
+        - column_id: Orderaccount
+          show_headline: false
+        - column_id: Total Lineamount
+          show_headline: false
+        - column_id: Total Qtyordered
+          show_headline: false
+        ordered_column_ids:
+        - Invoiceaccount
+        - Orderaccount
+        - Total Lineamount
+        - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Invoiceaccount
+        - column_id: Orderaccount
+        - column_id: Total Lineamount
+        - column_id: Total Qtyordered
+        axis_configs:
+        - x:
+          - Orderaccount
+          "y":
+          - Total Lineamount
+          - Total Qtyordered
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"0d9f9fcd-7ebb-4e1f-83d2-9242367d06cf\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lineamount\",\"Total Qtyordered\"],\"isOpposite\": false}},{\"id\": \"c67d1943-0daa-43ca-80e5-f40b4244b8ed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Orderaccount\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lineamount\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Qtyordered\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 3296e8a9-a0f4-4e6c-b10d-dc447cec8005
+  filters:
+  - column:
+    - Purchid
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - Orderaccount
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  - column:
+    - Invoiceaccount
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      x: 0
+      "y": 0
+      height: 8
+      width: 12
+    - visualization_id: Viz_2
+      x: 0
+      "y": 8
+      height: 8
+      width: 6
+    - visualization_id: Viz_3
+      x: 6
+      "y": 8
+      height: 8
+      width: 6
+    - visualization_id: Viz_4
+      x: 0
+      "y": 16
+      height: 8
+      width: 6
+    - visualization_id: Viz_5
+      x: 6
+      "y": 16
+      height: 8
+      width: 6
+    - visualization_id: Viz_6
+      x: 0
+      "y": 24
+      height: 8
+      width: 6
+    - visualization_id: Viz_7
+      x: 6
+      "y": 24
+      height: 8
+      width: 6
+    - visualization_id: Viz_8
+      x: 0
+      "y": 32
+      height: 8
+      width: 6
+    - visualization_id: Viz_9
+      x: 6
+      "y": 32
+      height: 8
+      width: 6
+    - visualization_id: Viz_10
+      x: 0
+      "y": 40
+      height: 8
+      width: 6
+    - visualization_id: Viz_11
+      x: 6
+      "y": 40
+      height: 8
+      width: 6
+    - visualization_id: Viz_12
+      x: 0
+      "y": 48
+      height: 8
+      width: 6
+    - visualization_id: Viz_13
+      x: 6
+      "y": 48
+      height: 8
+      width: 6
+    - visualization_id: Viz_14
+      x: 0
+      "y": 56
+      height: 8
+      width: 6
+    - visualization_id: Viz_15
+      x: 6
+      "y": 56
+      height: 8
+      width: 6
+    - visualization_id: Viz_16
+      x: 0
+      "y": 64
+      height: 8
+      width: 6
+    - visualization_id: Viz_17
+      x: 6
+      "y": 64
+      height: 8
+      width: 6
+    - visualization_id: Viz_18
+      x: 0
+      "y": 72
+      height: 8
+      width: 6
+    - visualization_id: Viz_19
+      x: 6
+      "y": 72
+      height: 8
+      width: 6
+    - visualization_id: Viz_20
+      x: 0
+      "y": 80
+      height: 8
+      width: 6
+    - visualization_id: Viz_21
+      x: 6
+      "y": 80
+      height: 8
+      width: 6
+    - visualization_id: Viz_22
+      x: 0
+      "y": 88
+      height: 8
+      width: 6
+    - visualization_id: Viz_23
+      x: 6
+      "y": 88
+      height: 8
+      width: 6
+    - visualization_id: Viz_24
+      x: 0
+      "y": 96
+      height: 8
+      width: 6
+    - visualization_id: Viz_25
+      x: 6
+      "y": 96
+      height: 8
+      width: 6
+    - visualization_id: Viz_26
+      x: 0
+      "y": 104
+      height: 8
+      width: 6
+    - visualization_id: Viz_27
+      x: 6
+      "y": 104
+      height: 8
+      width: 6
+    - visualization_id: Viz_28
+      x: 0
+      "y": 112
+      height: 8
+      width: 6
+    - visualization_id: Viz_29
+      x: 6
+      "y": 112
+      height: 8
+      width: 6
+    - visualization_id: Viz_30
+      x: 0
+      "y": 120
+      height: 8
+      width: 6
+    - visualization_id: Viz_31
+      x: 6
+      "y": 120
+      height: 8
+      width: 6
+    - visualization_id: Viz_32
+      x: 0
+      "y": 128
+      height: 8
+      width: 6
+    - visualization_id: Viz_33
+      x: 6
+      "y": 128
+      height: 8
+      width: 6
+    - visualization_id: Viz_34
+      x: 0
+      "y": 136
+      height: 8
+      width: 6
+    - visualization_id: Viz_35
+      x: 6
+      "y": 136
+      height: 8
+      width: 6
+    - visualization_id: Viz_36
+      x: 0
+      "y": 144
+      height: 8
+      width: 6
+    - visualization_id: Viz_37
+      x: 6
+      "y": 144
+      height: 8
+      width: 6
+    - visualization_id: Viz_38
+      x: 0
+      "y": 152
+      height: 8
+      width: 6
+    - visualization_id: Viz_39
+      x: 6
+      "y": 152
+      height: 8
+      width: 6
+    - visualization_id: Viz_40
+      x: 0
+      "y": 160
+      height: 8
+      width: 6
+    - visualization_id: Viz_41
+      x: 6
+      "y": 160
+      height: 8
+      width: 6
+    - visualization_id: Viz_42
+      x: 0
+      "y": 168
+      height: 8
+      width: 6
+    - visualization_id: Viz_43
+      x: 6
+      "y": 168
+      height: 8
+      width: 6
+    - visualization_id: Viz_44
+      x: 0
+      "y": 176
+      height: 8
+      width: 6
+    - visualization_id: Viz_45
+      x: 6
+      "y": 176
+      height: 8
+      width: 6
+    - visualization_id: Viz_46
+      x: 0
+      "y": 184
+      height: 8
+      width: 6
+    - visualization_id: Viz_47
+      x: 6
+      "y": 184
+      height: 8
+      width: 6
+    - visualization_id: Viz_48
+      x: 0
+      "y": 192
+      height: 8
+      width: 6
+    - visualization_id: Viz_49
+      x: 6
+      "y": 192
+      height: 8
+      width: 6
+    - visualization_id: Viz_50
+      x: 0
+      "y": 200
+      height: 8
+      width: 6
+    - visualization_id: Viz_51
+      x: 6
+      "y": 200
+      height: 8
+      width: 6
+    - visualization_id: Viz_52
+      x: 0
+      "y": 208
+      height: 8
+      width: 6
+    - visualization_id: Viz_53
+      x: 6
+      "y": 208
+      height: 8
+      width: 6
+    - visualization_id: Viz_54
+      x: 0
+      "y": 216
+      height: 8
+      width: 6
+    - visualization_id: Viz_55
+      x: 6
+      "y": 216
+      height: 8
+      width: 6
+    - visualization_id: Viz_56
+      x: 0
+      "y": 224
+      height: 8
+      width: 6
+    - visualization_id: Viz_57
+      x: 6
+      "y": 224
+      height: 8
+      width: 6
+    - visualization_id: Viz_58
+      x: 0
+      "y": 232
+      height: 8
+      width: 6
+    - visualization_id: Viz_59
+      x: 6
+      "y": 232
+      height: 8
+      width: 6
+    - visualization_id: Viz_60
+      x: 0
+      "y": 240
+      height: 8
+      width: 6
+    - visualization_id: Viz_61
+      x: 6
+      "y": 240
+      height: 8
+      width: 6
+    - visualization_id: Viz_62
+      x: 0
+      "y": 248
+      height: 8
+      width: 6
+    - visualization_id: Viz_63
+      x: 6
+      "y": 248
+      height: 8
+      width: 6
+    - visualization_id: Viz_64
+      x: 0
+      "y": 256
+      height: 8
+      width: 6
+    - visualization_id: Viz_65
+      x: 6
+      "y": 256
+      height: 8
+      width: 6
+    - visualization_id: Viz_66
+      x: 0
+      "y": 264
+      height: 8
+      width: 6
+    - visualization_id: Viz_67
+      x: 6
+      "y": 264
+      height: 8
+      width: 6
+    - visualization_id: Viz_68
+      x: 0
+      "y": 272
+      height: 8
+      width: 6
+    - visualization_id: Viz_69
+      x: 6
+      "y": 272
+      height: 8
+      width: 6
+    - visualization_id: Viz_70
+      x: 0
+      "y": 280
+      height: 8
+      width: 6
+    - visualization_id: Viz_71
+      x: 6
+      "y": 280
+      height: 8
+      width: 6
+    - visualization_id: Viz_72
+      x: 0
+      "y": 288
+      height: 8
+      width: 6
+    - visualization_id: Viz_73
+      x: 6
+      "y": 288
+      height: 8
+      width: 6
+    - visualization_id: Viz_74
+      x: 0
+      "y": 296
+      height: 8
+      width: 6
+    - visualization_id: Viz_75
+      x: 6
+      "y": 296
+      height: 8
+      width: 6
+    - visualization_id: Viz_76
+      x: 0
+      "y": 304
+      height: 8
+      width: 6
+    - visualization_id: Viz_77
+      x: 6
+      "y": 304
+      height: 8
+      width: 6
+    - visualization_id: Viz_78
+      x: 0
+      "y": 312
+      height: 8
+      width: 6
+    - visualization_id: Viz_79
+      x: 6
+      "y": 312
+      height: 8
+      width: 6
+  ordered_chips:
+  - name: Purchid
+    type: FILTER
+  - name: Orderaccount
+    type: FILTER
+  - name: Invoiceaccount
+    type: FILTER
